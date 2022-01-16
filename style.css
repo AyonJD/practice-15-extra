@@ -119,6 +119,7 @@ html,body{
     padding: .8rem 1.5rem;
     position: relative;
     transition: .3s ease-in .4s;
+    color: var(--secondery);
 }
 .main-nav-right #nav-btn:hover{
     color: var(--font-color);
