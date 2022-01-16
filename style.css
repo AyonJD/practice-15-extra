@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+:root{
+    --primary: #E4CD70;
+    --secondery: #16163F;
+    --font-color: #fff;
+}
+.container{
+    padding: 0 5rem;
+    margin: 0 auto;
+}
+/* ==========Top Nav start=========== */
+.top{
+    width: 100%;
+    background-color: var(--secondery);
+    height: fit-content;
+}
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+}
+.top-nav .top-nav-left{
+    display: flex;
+}
+.top-nav .top-nav-left .top-contact{
+    display: flex;
+    align-items: center;
+    margin-right: 1.2rem;
+    color: var(--font-color);
+}
+.top-nav .top-nav-left .top-contact i{
+    font-size: 1rem;
+    margin-right: .4rem;
+}
+.top-nav .top-nav-left .top-contact p{
+    font-size: .8rem;
+}
+.top-nav .top-nav-right{
+    display: flex;
+    align-items: center;
+}
+.top-nav .top-nav-right i{
+    margin-left: 1rem;
+    font-size: .8rem;
+    padding: .5rem;
+    background-color: var(--primary);
+    border-radius: 50%;
+    transition: .2s ease-in;
+}
+.top-nav .top-nav-right a{
+    color: var(--font-color);
+    margin-left: .4rem;
+    transition: transform .2s ease-in;
+}
+.top-nav .top-nav-right a:hover{
+    transform: translateY(-.5rem);
+    color: var(--primary);
+}
+.top-nav .top-nav-right a:hover i{
+    background-color: var(--font-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1326px){
+    .container{
+        max-width: 1200px;
+        padding: 0;
+    }
+    
+    .top-nav{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
