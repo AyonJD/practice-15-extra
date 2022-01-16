@@ -121,8 +121,8 @@ html,body{
     transition: .3s ease-in .4s;
     color: var(--secondery);
 }
-.main-nav-right #nav-btn:hover{
-    color: var(--font-color);
+.main-nav-right .hover-color:hover{
+    color: var(--font-color) !important;
     background-color: var(--secondery);
 }
 .main-nav-right #nav-btn::before{
